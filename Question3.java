@@ -15,6 +15,6 @@ public class Question3
     int num = in.nextInt();
     int result = num * num;
 
-    System.out.println("The result of multiplying " + num + " by itself is: " + result);
+    System.out.println(result);
   }
 }
