@@ -6,11 +6,9 @@ public class Question2 {
         
         System.out.print("Please enter your height (in meters): ");
         double height = in.nextDouble();
-        System.out.println("Your height is: " + height + " meters.");
 
         System.out.print("Please enter your weight (in kg): ");
         double weight = in.nextDouble();
-        System.out.println("Your weight is: " + weight + " kilograms.");
 
         double bmi = calculateBMI(weight, height);
 
@@ -21,4 +19,5 @@ public class Question2 {
         return weight / (height * height);
     }
 }
+
 
