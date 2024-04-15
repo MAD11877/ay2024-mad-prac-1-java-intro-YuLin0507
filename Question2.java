@@ -12,7 +12,8 @@ public class Question2 {
 
         double bmi = calculateBMI(weight, height);
 
-        System.out.println("Your BMI is: " + bmi);
+        // Print only the BMI value
+        System.out.println(bmi);
     }
 
     public static double calculateBMI(double weight, double height) {
