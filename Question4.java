@@ -18,6 +18,17 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+
+    int base = in.nextInt();
+
+    for (int i = base; i > 0; i--) {
+            // Inner loop to print asterisks in each row
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            // Move to the next line after printing each row
+            System.out.println();
+        }
     
   }
 }
